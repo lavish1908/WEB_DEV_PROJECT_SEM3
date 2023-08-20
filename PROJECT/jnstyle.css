@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&family=Noto+Sans:wght@300;600&family=Passions+Conflict&family=Playfair+Display&display=swap");
+.courses{
+    display: flex;
+    min-height: 80vh;
+    background-color: aqua;
+    flex-direction: column;
+}
+.course{
+    display: flex;
+    flex-direction: row;
+    min-height: 38vh;
+    background-color: antiquewhite;
+    margin: 4vh 12vw;
+    border-radius: 1vw;
+    padding: 2vh 2vw;
+}
+.c-img{
+    display: flex;
+    align-items: center;
+}
+.c-img img{
+    height: 36vh;
+    width: 28vw;
+    border-radius: 1vw;
+}
+.course-content{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 1vw;
+    height: 36vh;
+    width: 50vw;
+    background-color: aquamarine;
+}
+.course-content p{
+    font-size: 3.8vh;
+    font-weight: bolder;
+    color: black;
+    padding: 2vh 1vw;
+}
+.course-content-info-num{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.course-content-info-num p{
+    font-size: 2.5vh;
+    padding: 1vh 4vw;
+}
+.course-content-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.course-content-info p{
+    font-size: 1.5vh;
+    padding: 0.5vh 3.7vw;
+}
+.discount p{
+    font-size: 2vh;
+    padding: 1.5vh 1vw 0vh 1vw;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+}
+.new-price{
+    display: flex;
+    align-items: center;
+    margin: 1vh 1vw 0vw 0vw;
+}
+.new-price p{
+    font-size: 3vh;
+    font-weight: bolder;
+}
+.old-price{
+    display: flex;
+    align-items: center;
+    margin: 1vh 1vw 0vw 0vw;
+}
+.old-price p{
+    font-size: 2.5vh;
+    font-weight: lighter;
+    text-decoration-line: line-through;
+}
+.off{
+    display: flex;
+    align-items: center;
+    margin: 2vh 1vw 0vw 4vw;
+    background-color: lightcoral;
+    border-radius: 1.7vw;
+    width: 8vw;
+    justify-content: center;
+    height: 6vh;
+}
+.off p{
+    font-size: 2.5vh;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    margin: 2vh 1vw 0vw 6vw;
+    background-color: blue;
+    width: 9vw;
+    justify-content: center;
+    height: 6vh;
+    border-radius: 0.5vw;
+}
+.buy a{
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+}

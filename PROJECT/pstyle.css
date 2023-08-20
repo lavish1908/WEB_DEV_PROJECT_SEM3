@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&family=Passions+Conflict&family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey&family=Noto+Sans:wght@300;600&family=Passions+Conflict&family=Playfair+Display&display=swap");
+:root{
+    --main-bg-color: rgb(31, 186, 152);
+}
+/* rgb(31, 186, 152) */
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 8vh;
+    width: auto;
+    padding: 0 0.75vw;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 2vh 1vw;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 2vw;
+    font-size: 2.75vh;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: purple;
+    /* font-weight: bolder; */
+}
+.login{
+    display: flex;
+    align-items: center;
+    /* margin: 2vh 0vw 2vh 57vw; */
+    padding: 0 2vw;
+    color: wheat;
+    background-color: black;
+    border-radius: 0.4vw;
+    font-size: 3vh;
+    font-family: 'Playfair Display', serif;
+    margin: 2vh 1vw 2vh 46vw;
+    /* font-weight: bolder; */
+}
+.login a{
+    text-decoration: none;
+    color: palevioletred;
+}
+.login a:hover{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.container-1{
+    min-height: 80vh;
+    background-color: rgb(255, 229, 233);
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+    height: 80vh;
+}
+
+.slideshow-container {
+    height: 70vh;
+    position: relative;
+    margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.container-2{
+    min-height: 85vh;
+    /* background-color: rgb(255, 229, 233); */
+    background-color: #A5F1E9;
+    overflow: auto;
+    display: flex;
+}
+.vertical-banner{
+    color: darkblue;
+    font-family: 'Marhey', cursive;
+    background-color: #A5F1E9;
+    /* background-color: white; */
+    /* background-color: #FFEBAD; */
+    height: 75vh;
+    width: 23vw;
+    padding: 5vh 2vw 5vh 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.vertical-banner-heading p{
+    font-size: 4.6vh;
+    padding: 3vh 0vw 1vh 1vw;
+    font-weight: bold;
+}
+.vertical-banner-sub-heading p{
+    font-size: 2vh;
+    padding: 1vh 2vw 1vh 0.5vw;
+    text-align: center;
+}
+.vertical-banner-content{
+    display: flex;
+    flex-direction: column;
+}
+.vertical-banner-content-num{
+    display: flex;
+    justify-content: center;
+    margin: 1vh 2vw;
+}
+.vertical-banner-content-num p{
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+.vertical-banner-content-info{
+    display: flex;
+    justify-content: center;
+}
+.vertical-banner-content-info p{
+    font-size: 2.2vh;
+}
+.class{
+    /* margin: 15vh 0vw 15vh 2vw; */
+    margin: 18vh 0.9vw 15vh 2vw;
+}
+.classes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    /* margin: 3vw 0vw;  */
+   /* padding: 2vh; */
+}
+.classes-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 12vh;
+    width: 15vw;
+    margin: 4vh 2vw;
+    padding: 2vh 2vw;
+    border-radius: 1vw;
+}
+.classes-item:hover{
+    background-color: lightcyan;
+}
+.classes-item a{
+    text-decoration: none;
+    font-size: 4vh;
+    color: palevioletred;
+    font-family: 'Marhey', cursive;
+/* font-family: 'Passions Conflict', cursive; */
+/* font-family: 'Playfair Display', serif; */
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    overflow: hidden;
+}
+footer p{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    padding: 5vh 42vw 5vh 43vw;
+}

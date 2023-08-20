@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&family=Noto+Sans:wght@300;600&family=Passions+Conflict&family=Playfair+Display&display=swap");
+.container-class{
+    background-color: lightgreen;
+    min-height: 125vh;
+}
+.heading{
+    background-color: white;
+    min-height: 20vh;
+    padding: 2vh 5vw;
+}
+.home{
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: palevioletred;
+    font-family: 'Noto Sans', sans-serif;
+}
+.home:hover{
+    font-weight: bold;
+}
+.class-select{
+    text-decoration: none;
+    font-size: 3vh;
+    color: palevioletred;
+    font-family: 'Noto Sans', sans-serif;
+}
+.class-select:hover{
+    font-weight: bold;
+}
+.container-class h1{
+    font-size: 5vh;
+    font-weight: bolder;
+    color: palevioletred;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container-class p{
+    font-size: 2.5vh;
+    /* font-weight: 50; */
+    color: palevioletred;
+    font-family: 'Noto Sans', sans-serif;
+}
+.content{
+    background-color: #A5F1E9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 3vw 0vw;  */
+    /* padding: 2vh; */
+}
+.subject{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    width: 28vw;
+    margin: 4vh 2vw;
+    border-radius: 1vw;
+}
+.physics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 28vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+    background-image: url('https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: contain;
+    opacity: 0.7;
+    /* background-color: lightcoral; */
+    /* background-repeat: repeat-x; */
+    /* display: flex;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 28vw;
+    border-radius: 1vw 1vw 0vw 0vw; */
+}
+.chemistry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 28vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+    background-image: url("https://images.pexels.com/photos/8325710/pexels-photo-8325710.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    opacity: 0.7;
+}
+.maths{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 28vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+    background-image: url("https://images.pexels.com/photos/240163/pexels-photo-240163.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    opacity: 0.7;
+}
+.subject p{
+    color: black;
+    font-size: 10vh;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+.subject-content{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.chapter{
+    margin: 2vh 2vw;
+    font-size: 3vh;
+    font-family: 'Marhey', cursive;
+    color: palevioletred;
+}
+.chapter a{
+    padding: 1vh 5vw;
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: var(--main-bg-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+.chapter a:hover{
+    text-decoration: underline;
+}
